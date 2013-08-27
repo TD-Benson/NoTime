@@ -1,0 +1,2080 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Empress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-15 21:54+0800\n"
+"PO-Revision-Date: 2013-01-15 21:55+0800\n"
+"Last-Translator: Runel C. Pequiro <runel@i-designr.com>\n"
+"Language-Team: Theme Dutch\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404-search.php:1
+msgid "Sorry!"
+msgstr ""
+
+#: ../404-search.php:4
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../404.php:5
+msgid "Oops ! The page you are looking for cannot be found!"
+msgstr ""
+
+#: ../404.php:5
+msgid " (1) Go back to the home page and start all over again."
+msgstr ""
+
+#: ../404.php:6
+msgid " (2) Locate the section you want by using the menu above."
+msgstr ""
+
+#: ../404.php:7
+msgid " (3) Search our site via the search field."
+msgstr ""
+
+#: ../author-content.php:8
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../author-content.php:12
+msgid "View all posts by"
+msgstr ""
+
+#: ../author-content.php:20
+#, php-format
+msgid "More post by %s"
+msgstr ""
+
+#: ../author.php:5
+#, php-format
+msgid "Viewing all posts by %s"
+msgstr ""
+
+#: ../comments.php:12
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../comments.php:17
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../comments.php:19
+msgid "(Edit)"
+msgstr ""
+
+#: ../comments.php:24
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../comments.php:58
+msgid "Leave a reply"
+msgstr ""
+
+#: ../comments.php:73
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:81
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:85
+msgid "There are no comments yet. Be the first to leave one!"
+msgstr ""
+
+#: ../functions.php:159
+msgid "Meta Title, Description and Keywords"
+msgstr ""
+
+#: ../functions.php:199
+#, php-format
+msgid "<h1 class=\"title entry-title\">Daily Archives: %s"
+msgstr ""
+
+#: ../functions.php:201
+#, php-format
+msgid "<h1 class=\"title entry-title\">Monthly Archives: %s"
+msgstr ""
+
+#: ../functions.php:203
+#, php-format
+msgid "<h1 class=\"title entry-title\">Yearly Archives: %s"
+msgstr ""
+
+#: ../functions.php:205
+#, php-format
+msgid "<h1 class=\"title entry-title\">Showing posts with tag: %s"
+msgstr ""
+
+#: ../functions.php:207
+#, php-format
+msgid "<h1 class=\"title entry-title\">Search Results: %s"
+msgstr ""
+
+#: ../functions.php:217
+msgid "You are here:"
+msgstr ""
+
+#: ../functions.php:424
+#, php-format
+msgid "Customize %s"
+msgstr ""
+
+#: ../functions.php:429 ../core/fonts/fonts-init.php:11
+msgid "Amazingly few discotheques provide jukeboxes."
+msgstr ""
+
+#: ../loop-excerpts.php:73
+msgid "Read more"
+msgstr ""
+
+#: ../loop-excerpts.php:87
+msgid "no comments"
+msgstr ""
+
+#: ../loop-excerpts.php:87
+msgid "one comment"
+msgstr ""
+
+#: ../loop-excerpts.php:87
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../loop-page.php:79
+msgid "Related Items"
+msgstr ""
+
+#: ../core/core-breadcrumbs.php:104
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../core/core-breadcrumbs.php:122
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: ../core/core-breadcrumbs.php:126
+#, php-format
+msgid "tag \\ %s"
+msgstr ""
+
+#: ../core/core-breadcrumbs.php:131
+msgid "Author"
+msgstr ""
+
+#: ../core/core-seo.php:35
+msgid "Enable for this page."
+msgstr ""
+
+#: ../core/core-seo.php:37
+msgid "Page Title"
+msgstr ""
+
+#: ../core/core-seo.php:38 ../includes/theme-options.php:373
+msgid "Meta Description"
+msgstr ""
+
+#: ../core/core-seo.php:38
+msgid "The description should optimally be between 150-160 characters."
+msgstr ""
+
+#: ../core/core-seo.php:39
+msgid "Keywords"
+msgstr ""
+
+#: ../core/core-seo.php:39
+msgid "Separate each keyword with a comma."
+msgstr ""
+
+#: ../core/core-seo.php:82
+msgid "<!-- SEO Basic is disabled -->"
+msgstr ""
+
+#: ../core/core-sociables.php:22
+msgid ""
+"Use this page to enter your social media profile names, or to define custom "
+"social media links."
+msgstr ""
+
+#: ../core/core-sociables.php:40
+#: ../core/cf-post-formats/views/format-link.php:2
+msgid "URL"
+msgstr ""
+
+#: ../core/core-sociables.php:41
+msgid "Icon"
+msgstr ""
+
+#: ../core/core-sociables.php:42
+msgid "Hover icon"
+msgstr ""
+
+#: ../core/core-sociables.php:103
+msgid "Display Sociables in your sidebar."
+msgstr ""
+
+#: ../core/core-sociables.php:108
+#: ../core/shortcodes/shortcodes-overlay.php:371
+msgid "Sociables"
+msgstr ""
+
+#: ../core/core-sociables.php:114 ../core/widgets/categories.php:99
+#: ../core/widgets/postwidget.php:113
+msgid "Title:"
+msgstr ""
+
+#: ../core/audio/mediaelement-js-wp.php:182
+msgid "Save Changes"
+msgstr ""
+
+#: ../core/cf-post-formats/cf-post-formats.php:76
+msgid "Loading..."
+msgstr ""
+
+#: ../core/cf-post-formats/views/format-audio.php:2
+msgid "Audio URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: ../core/cf-post-formats/views/format-gallery.php:2
+msgid "Gallery Images"
+msgstr ""
+
+#: ../core/cf-post-formats/views/format-gallery.php:26
+msgid "Upload Images"
+msgstr ""
+
+#: ../core/cf-post-formats/views/format-quote.php:3
+msgid "Source Name"
+msgstr ""
+
+#: ../core/cf-post-formats/views/format-quote.php:7
+msgid "Source URL"
+msgstr ""
+
+#: ../core/cf-post-formats/views/format-video.php:2
+msgid "Video URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: ../core/cf-post-formats/views/tabs.php:9
+msgid "Standard"
+msgstr ""
+
+#: ../core/colorschemes/colorschemes-options.php:13
+msgid "Here you can define color schemes to use on separate posts and pages."
+msgstr ""
+
+#: ../core/colorschemes/colorschemes-options.php:32
+msgid "Name"
+msgstr ""
+
+#: ../core/colorschemes/colorschemes-options.php:33
+msgid "Background color"
+msgstr ""
+
+#: ../core/colorschemes/colorschemes-options.php:34
+msgid "Background opacity %"
+msgstr ""
+
+#: ../core/colorschemes/colorschemes-options.php:35
+msgid "Paragraph color"
+msgstr ""
+
+#: ../core/colorschemes/colorschemes-options.php:36
+msgid "Headings color"
+msgstr ""
+
+#: ../core/colorschemes/colorschemes-options.php:90
+msgid "Default"
+msgstr ""
+
+#: ../core/fonts/fonts-list.php:7
+msgid "Standard fonts"
+msgstr ""
+
+#: ../core/fonts/fonts-list.php:17
+msgid "Google fonts"
+msgstr ""
+
+#: ../core/layout/layout-generate.php:183
+msgid "No sidebar defined for this widget location."
+msgstr ""
+
+#: ../core/layout/layout-init.php:39 ../includes/theme-options.php:114
+#: ../includes/theme-options.php:358
+msgid "Layout"
+msgstr ""
+
+#: ../core/layout/layout-init.php:44
+msgid ""
+"Use this option to change the layout of the current page. Sidebars are "
+"ordered from left to right."
+msgstr ""
+
+#: ../core/layout/layout-init.php:47
+msgid "Sidebars"
+msgstr ""
+
+#: ../core/layout/layout-init.php:47
+msgid ""
+"By adding sidebars here, you can assign widgets to them and then use them in "
+"your page layouts."
+msgstr ""
+
+#: ../core/layout/layout-init.php:55
+msgid "Layouts"
+msgstr ""
+
+#: ../core/layout/layout-init.php:55
+msgid "Use this page to define the layouts of special pages."
+msgstr ""
+
+#: ../core/layout/layout-init.php:61
+msgid "Search page"
+msgstr ""
+
+#: ../core/layout/layout-init.php:62
+msgid "Archive page"
+msgstr ""
+
+#: ../core/layout/layout-init.php:63
+msgid "404 page"
+msgstr ""
+
+#: ../core/layout/layout-init.php:64
+msgid "Author page"
+msgstr ""
+
+#: ../core/layout/layout-init.php:65
+msgid "Tag page"
+msgstr ""
+
+#: ../core/layout/layout-options.php:123 ../includes/theme-options.php:274
+msgid "Sidebar"
+msgstr ""
+
+#: ../core/layout/layout-options.php:148
+msgid "Footer column"
+msgstr ""
+
+#: ../core/layout/layout-options.php:164
+msgid "Add"
+msgstr ""
+
+#: ../core/layout/layout-options.php:166
+msgid "Available sidebars"
+msgstr ""
+
+#: ../core/layout/layout-options.php:172 ../core/layout/layout-options.php:181
+#: ../core/slider/slider-options.php:48 ../core/slider/slider-options.php:58
+msgid "Remove"
+msgstr ""
+
+#: ../core/options/options-classes.php:278
+#, php-format
+msgid "Unknown option type %s."
+msgstr ""
+
+#: ../core/options/options-registry.php:51
+#, php-format
+msgid "Cannot find theme option %s"
+msgstr ""
+
+#: ../core/options/options-theme.php:42
+msgid "Options saved succesfully."
+msgstr ""
+
+#: ../core/options/options-types.php:76 ../core/slider/slider-options.php:86
+msgid "None"
+msgstr ""
+
+#: ../core/options/options-types.php:84
+msgid "Pattern"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:9
+#: ../includes/customization.php:65
+msgid "Buttons"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:10
+msgid "Small button"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:11
+msgid ""
+"Inserts a small button. If you add the <i>window</i> attribute, the link "
+"will be opened in a new window."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:14
+msgid "Medium button"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:15
+msgid ""
+"Inserts a medium sized button. If you add the <i>window</i> attribute, the "
+"link will be opened in a new window."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:18
+msgid "Large button"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:19
+msgid ""
+"Inserts a large button. If you add the <i>window</i> attribute, the link "
+"will be opened in a new window."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:24
+msgid "Columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:25
+msgid "2 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:26
+msgid "Inserts two columns in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:29
+msgid "1/3 - 2/3"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:30
+msgid ""
+"Inserts two columns, one a third and the other two thirds, in which you can "
+"place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:33
+msgid "2/3 - 1/3"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:34
+msgid ""
+"Inserts two columns, one two thirds and the other a third, in which you can "
+"place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:37
+msgid "1/4 - 3/4"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:38
+msgid ""
+"Inserts two columns, one a fourth and the other three fourths, in which you "
+"can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:41
+msgid "3/4 - 1/4"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:42
+msgid ""
+"Inserts two columns, one three fourths and the other a fourth, in which you "
+"can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:45
+msgid "3 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:46
+msgid "Inserts three columns in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:49
+msgid "4 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:50
+msgid "Inserts four columns in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:53
+msgid "5 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:54
+msgid "Inserts five columns in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:57
+msgid "Custom 2 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:58
+msgid ""
+"1. Insert the default column shortcode, which also can be changed into 3/4/5 "
+"columns  \n"
+"2. Then insert only the URL of your favourite background image. \n"
+"3. Choose your own personal text color  \n"
+"4. Set your own image size (default settings are: 100 % and 150 px), which "
+"can be made larger or smaller"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:63
+msgid "Columns (divider)"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:64
+msgid "2 columns + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:65
+msgid ""
+"Inserts two columns separated by a divider line in which you can place "
+"further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:68
+msgid "1/3 - 2/3 + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:69
+msgid ""
+"Inserts two columns, one a third and the other two thirds, separated by a "
+"divider line in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:72
+msgid "2/3 - 1/3 + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:73
+msgid ""
+"Inserts two columns, one two thirds and the other a third, separated by a "
+"divider line in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:76
+msgid "1/4 - 3/4 + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:77
+msgid ""
+"Inserts two columns, one a fourth and the other three fourths, separated by "
+"a divider line in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:80
+msgid "3/4 - 1/4 + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:81
+msgid ""
+"Inserts two columns, one three fourths and the other a fourth, separated by "
+"a divider line in which you can place further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:84
+msgid "3 columns + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:85
+msgid ""
+"Inserts three columns separated by a divider line in which you can place "
+"further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:88
+msgid "4 columns + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:89
+msgid ""
+"Inserts four columns separated by a divider line in which you can place "
+"further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:92
+msgid "5 columns + divider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:93
+msgid ""
+"Inserts five columns separated by a divider line in which you can place "
+"further content."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:99
+msgid "Dividers"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:100
+msgid "Dotted"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:101
+msgid "Inserts a dotted divider line."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:104
+msgid "Invisible Spacer 20px"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:105
+msgid ""
+"Inserts a spacer of 20 pixels high. Perfect to create space between columns."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:108
+msgid "Slashed"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:109
+msgid "Inserts a slashed tall divider line."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:112
+msgid "Solid"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:113
+msgid "Inserts a solid divider line."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:116
+msgid "To top"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:117
+msgid ""
+"Inserts a solid divider line with a button that scrolls the page to the top."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:122
+msgid "Dropcaps"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:123
+msgid "Red dropcap"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:124
+msgid "Inserts a red dropcap."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:127
+msgid "Green dropcap"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:128
+msgid "Inserts a green dropcap."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:131
+msgid "Blue dropcap"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:132
+msgid "Inserts a blue dropcap."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:135
+msgid "White dropcap"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:136
+msgid "Inserts a white dropcap."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:139
+msgid "Black dropcap"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:140
+msgid "Inserts a black dropcap."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:143
+msgid "Grey dropcap"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:144
+msgid "Inserts a grey dropcap."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:176
+msgid "Image gallery"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:177
+msgid "Image gallery, 2 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:178
+msgid "Inserts an image gallery with 2 columns."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:181
+msgid "Image gallery, 3 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:182
+msgid "Inserts an image gallery with 3 columns."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:185
+msgid "Image gallery, 4 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:186
+msgid "Inserts an image gallery with 4 columns."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:189
+msgid "Image gallery, 6 columns"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:190
+msgid "Inserts an image gallery with 6 columns."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:195
+msgid "Lists"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:196
+msgid "Balloon"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:197
+msgid "A list with balloon icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:200
+msgid "Circle"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:201
+msgid "A list with circular bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:204
+msgid "Creditcard"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:205
+msgid "A list with creditcard icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:208
+msgid "Dot"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:209
+msgid "A list with dotted bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:212
+msgid "File"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:213
+msgid "A list with file icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:216
+msgid "Mail"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:217
+msgid "A list with mail icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:220
+#: ../core/shortcodes/shortcodes-overlay.php:271
+msgid "Info"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:221
+msgid "A list with info icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:224
+msgid "Minus"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:225
+msgid "A list with minus sign bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:228
+msgid "Phone"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:229
+msgid "A list with phone icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:232
+msgid "Plus"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:233
+msgid "A list with plus sign bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:236
+#: ../core/shortcodes/shortcodes-overlay.php:291
+msgid "Question"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:237
+msgid "A list with question icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:240
+msgid "Square"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:241
+msgid "A list with square bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:244
+msgid "Support"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:245
+msgid "A list with \"support\" icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:248
+msgid "V"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:249
+msgid "A list with tick bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:252
+#: ../core/shortcodes/shortcodes-overlay.php:267
+msgid "Warning"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:253
+msgid "A list with warning icon bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:256
+msgid "X"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:257
+msgid "A list with cross bullets."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:262
+msgid "Notifications"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:263
+msgid "Highlight"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:264
+msgid "A highlighted text."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:268
+msgid "A warning notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:272
+msgid "An informative notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:275
+msgid "Textbox white"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:276
+msgid "An informative White box notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:279
+msgid "Textbox blue"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:280
+msgid "An informative Blue box notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:283
+msgid "Textbox grey"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:284
+msgid "An informative Grey box notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:287
+msgid "Ok"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:288
+msgid "A positive notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:292
+msgid "A question notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:295
+msgid "Error"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:296
+msgid "An error notification."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:301
+msgid "Quotes"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:302
+msgid "Quote block"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:303
+msgid "Inserts a block which is styled like a quote."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:306
+msgid "Pullquote left"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:307
+msgid "Inserts a left-aligned pullquote block."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:310
+msgid "Pullquote right"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:311
+msgid "Inserts a right-aligned pullquote block."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:314
+msgid "Quote symbol 1"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:315
+#: ../core/shortcodes/shortcodes-overlay.php:319
+#: ../core/shortcodes/shortcodes-overlay.php:323
+#: ../core/shortcodes/shortcodes-overlay.php:327
+#: ../core/shortcodes/shortcodes-overlay.php:331
+msgid "Inserts a quote symbol image, which will be placed like a dropcap."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:318
+msgid "Quote symbol 2"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:322
+msgid "Quote symbol 3"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:326
+msgid "Quote symbol 4"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:330
+msgid "Quote symbol 5"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:336
+msgid "Tabs"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:337
+msgid "Tab block"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:338
+msgid "Inserts a tabbed content block. Use [tab] shortcodes to add more tabs."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:341
+msgid "Tab left block"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:342
+msgid ""
+"Inserts a tabbed content block and tabs on the left. Use [tab] shortcodes to "
+"add more tabs."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:345
+msgid "Tab right block"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:346
+msgid ""
+"Inserts a tabbed content block and tabs on the right. Use [tab] shortcodes "
+"to add more tabs."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:349
+msgid "Single tab"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:350
+msgid ""
+"A single tab. This needs to be placed inside a [tabs] shortcode (and not "
+"inside another [tab] shortcode) to work."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:355
+msgid "Toggle"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:356
+msgid "Toggle block"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:357
+msgid ""
+"Inserts a toggled content block. Use [toggle_content] shortcodes to add more "
+"content sections."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:360
+msgid "Single toggle section"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:361
+msgid ""
+"A single toggle content section. This needs to be placed inside a [toggle] "
+"shortcode (and not inside another [toggle_content] shortcode) to work."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:366
+msgid "Special Shortcodes"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:367
+#: ../includes/theme-options.php:306
+msgid "Portfolio"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:368
+msgid "Inserts the portfolio layout with category option."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:372
+msgid "Inserts the sociables which you already set at the admin panel."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:375
+msgid "Thumbnail Slider"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:376
+msgid "Inserts an Accordion-Carousel Thumbnail slider."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:379
+#: ../core/widgets/postwidget.php:102
+msgid "Latest Posts"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:380
+msgid "Inserts a list of latest posts."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:383
+msgid "Popular Posts"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:384
+msgid "Inserts a list of popular posts."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:387
+msgid "Random Posts"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:388
+msgid "Inserts a list of random posts."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:391
+msgid "Custom Latest Posts"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:392
+msgid ""
+"Inserts a list of latest posts in a blog style format. You put a custom "
+"title, select which category to display, limit the number of posts, limit "
+"the number of words and use thumbnail, medium or large as the size of the "
+"featured image."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:527
+#: ../core/widgets/categories.php:14 ../includes/slider-latest.php:39
+#: ../includes/theme-options.php:320
+msgid "Categories"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:532
+msgid "Shortcodes"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes-overlay.php:537
+msgid "Description"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:233
+msgid "Invalid or no \"notify\" shortcode attribute."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:250
+msgid "Invalid or no \"list\" shortcode attribute."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:282
+msgid "Invalid or no \"column\" shortcode attribute."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:421 ../core/shortcodes/shortcodes.php:534
+#: ../core/shortcodes/shortcodes.php:617
+msgid "No posts found."
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:498 ../core/shortcodes/shortcodes.php:608
+msgid "read more"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:504 ../core/shortcodes/shortcodes.php:506
+msgid " Comments"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:508
+msgid "Comment"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:519
+msgid "Category"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:525
+msgid "Tags"
+msgstr ""
+
+#: ../core/shortcodes/shortcodes.php:613
+msgid "right"
+msgstr ""
+
+#: ../core/slider/slider-options.php:16
+msgid "Create sliders, to be used on pages and post."
+msgstr ""
+
+#: ../core/slider/slider-options.php:39
+msgid "Add new"
+msgstr ""
+
+#: ../core/slider/slider-options.php:47 ../core/slider/slider-options.php:57
+msgid "Edit"
+msgstr ""
+
+#: ../core/slider/slider-registry.php:25
+#, php-format
+msgid "Could not find slider with slug name \"%s\"."
+msgstr ""
+
+#: ../core/slider/slider-registry.php:66
+msgid "Slider saved succesfully."
+msgstr ""
+
+#: ../core/widgets/categories.php:7
+msgid "A list or dropdown of categories"
+msgstr ""
+
+#: ../core/widgets/categories.php:8
+msgid "ThemeDutch Categories"
+msgstr ""
+
+#: ../core/widgets/categories.php:34
+msgid "Unknown category slug"
+msgstr ""
+
+#: ../core/widgets/categories.php:41
+msgid "No categories found."
+msgstr ""
+
+#: ../core/widgets/categories.php:44
+msgid "Select Category"
+msgstr ""
+
+#: ../core/widgets/categories.php:102
+msgid "Show these categories (slug names, separated by commas)"
+msgstr ""
+
+#: ../core/widgets/categories.php:106
+msgid "Display as dropdown"
+msgstr ""
+
+#: ../core/widgets/categories.php:109
+msgid "Show post counts"
+msgstr ""
+
+#: ../core/widgets/categories.php:112
+msgid "Show hierarchy"
+msgstr ""
+
+#: ../core/widgets/categories.php:115
+msgid "Show icons"
+msgstr ""
+
+#: ../core/widgets/categories.php:152
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: ../core/widgets/categories.php:174
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: ../core/widgets/postwidget.php:117
+msgid "Display Option:"
+msgstr ""
+
+#: ../core/widgets/postwidget.php:125
+msgid "Category: (comma separated)"
+msgstr ""
+
+#: ../core/widgets/postwidget.php:130
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../includes/customization.php:10 ../includes/theme-options.php:245
+msgid "Colors"
+msgstr ""
+
+#: ../includes/customization.php:49 ../includes/theme-options.php:296
+msgid "Links"
+msgstr ""
+
+#: ../includes/customization.php:53
+msgid "Links, hover"
+msgstr ""
+
+#: ../includes/customization.php:57
+msgid "Footer text"
+msgstr ""
+
+#: ../includes/customization.php:61
+msgid "Footer background"
+msgstr ""
+
+#: ../includes/customization.php:69
+msgid "Buttons text"
+msgstr ""
+
+#: ../includes/layouts.php:92
+msgid "Default Left"
+msgstr ""
+
+#: ../includes/layouts.php:93
+msgid "Default Right"
+msgstr ""
+
+#: ../includes/layouts.php:94
+msgid "Footer 1"
+msgstr ""
+
+#: ../includes/layouts.php:95
+msgid "Footer 2"
+msgstr ""
+
+#: ../includes/layouts.php:96
+msgid "Footer 3"
+msgstr ""
+
+#: ../includes/layouts.php:97
+msgid "Footer 4"
+msgstr ""
+
+#: ../includes/layouts.php:98
+msgid "Footer 5"
+msgstr ""
+
+#: ../includes/layouts.php:99
+msgid "Footer 6"
+msgstr ""
+
+#: ../includes/post-options.php:5 ../includes/post-options2.php:5
+#: ../includes/theme-options.php:43
+msgid "General"
+msgstr ""
+
+#: ../includes/post-options.php:12 ../includes/theme-options.php:361
+msgid "Slider"
+msgstr ""
+
+#: ../includes/post-options.php:12 ../includes/theme-options.php:361
+msgid "The slider will be displayed at the top of the page."
+msgstr ""
+
+#: ../includes/post-options.php:20
+msgid "Content color scheme"
+msgstr ""
+
+#: ../includes/post-options.php:20
+msgid "The content block will use this color scheme."
+msgstr ""
+
+#: ../includes/post-options.php:23 ../includes/theme-options.php:72
+msgid "Background image"
+msgstr ""
+
+#: ../includes/post-options.php:23
+msgid ""
+"This background image will override the one defined under theme options."
+msgstr ""
+
+#: ../includes/post-options.php:26
+msgid "Slogan block"
+msgstr ""
+
+#: ../includes/post-options.php:26 ../includes/theme-options.php:369
+msgid "Any HTML put here will be included in it's own block above the content."
+msgstr ""
+
+#: ../includes/post-options.php:27
+msgid "Slogan block background"
+msgstr ""
+
+#: ../includes/post-options.php:27
+msgid "This background image will display within the Slogan block."
+msgstr ""
+
+#: ../includes/post-options2.php:11
+msgid "Post Width"
+msgstr ""
+
+#: ../includes/post-options2.php:11
+msgid "This option allows you to choose the width of the post."
+msgstr ""
+
+#: ../includes/post-options2.php:12
+msgid "1/6th"
+msgstr ""
+
+#: ../includes/post-options2.php:12
+msgid "2/6th"
+msgstr ""
+
+#: ../includes/post-options2.php:12
+msgid "3/6th"
+msgstr ""
+
+#: ../includes/post-options2.php:12
+msgid "4/6th"
+msgstr ""
+
+#: ../includes/post-options2.php:12
+msgid "5/6th"
+msgstr ""
+
+#: ../includes/post-options2.php:12
+msgid "6/6th"
+msgstr ""
+
+#: ../includes/slider-latest.php:5
+msgid "Latest posts Slider"
+msgstr ""
+
+#: ../includes/slider-latest.php:19 ../includes/slider-nivo.php:41
+#: ../includes/slider-slideshow.php:18
+msgid "Width"
+msgstr ""
+
+#: ../includes/slider-latest.php:24 ../includes/slider-nivo.php:46
+#: ../includes/slider-slideshow.php:23
+msgid "Height"
+msgstr ""
+
+#: ../includes/slider-latest.php:29 ../includes/slider-nivo.php:62
+msgid "Transition speed"
+msgstr ""
+
+#: ../includes/slider-latest.php:34 ../includes/slider-nivo.php:51
+msgid "Slide delay"
+msgstr ""
+
+#: ../includes/slider-latest.php:40
+msgid ""
+"Enter the slug names of categories you want the slider to display, separated "
+"by commas."
+msgstr ""
+
+#: ../includes/slider-latest.php:45
+msgid "Post count"
+msgstr ""
+
+#: ../includes/slider-nivo.php:4
+msgid "Fold"
+msgstr ""
+
+#: ../includes/slider-nivo.php:5
+msgid "Fade"
+msgstr ""
+
+#: ../includes/slider-nivo.php:6
+msgid "Random"
+msgstr ""
+
+#: ../includes/slider-nivo.php:24
+msgid "Nivo slider"
+msgstr ""
+
+#: ../includes/slider-nivo.php:57
+msgid "Transition effect"
+msgstr ""
+
+#: ../includes/slider-nivo.php:67
+msgid "Pause on hover"
+msgstr ""
+
+#: ../includes/slider-nivo.php:72
+msgid "Next\\previous buttons"
+msgstr ""
+
+#: ../includes/slider-nivo.php:82 ../includes/slider-slideshow.php:50
+msgid "Image"
+msgstr ""
+
+#: ../includes/slider-nivo.php:93
+msgid "Caption"
+msgstr ""
+
+#: ../includes/slider-nivo.php:103
+msgid "Link"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:5
+msgid "Slideshow Slider"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:29
+msgid "FadeIn/FadeOut"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:30
+msgid "Rotate/SlideRight"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:31
+msgid "MovesDown/MovesUp"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:32
+msgid "Combined"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:34
+msgid "Animation"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:40
+msgid "Pattern Overlay"
+msgstr ""
+
+#: ../includes/slider-slideshow.php:61
+msgid "HTML Block"
+msgstr ""
+
+#: ../includes/theme-options.php:43
+msgid "General theme options."
+msgstr ""
+
+#: ../includes/theme-options.php:48
+msgid "Settings"
+msgstr ""
+
+#: ../includes/theme-options.php:50
+msgid "Pre-Designed Skin"
+msgstr ""
+
+#: ../includes/theme-options.php:50
+msgid "You can load the pre-designed skin for the look and feel of your site."
+msgstr ""
+
+#: ../includes/theme-options.php:54
+msgid "Page Layout Style"
+msgstr ""
+
+#: ../includes/theme-options.php:54
+#, php-format
+msgid ""
+"This setting toggles the 100% fullwidth, 100% fluid or boxed layout style of "
+"your site."
+msgstr ""
+
+#: ../includes/theme-options.php:58
+msgid "Display blog meta"
+msgstr ""
+
+#: ../includes/theme-options.php:58
+msgid "This setting toggles the display of meta-information in blog posts."
+msgstr ""
+
+#: ../includes/theme-options.php:61
+msgid "Display breadcrumbs"
+msgstr ""
+
+#: ../includes/theme-options.php:61
+msgid "This setting toggles the display of the breadcrumbs navigation aid."
+msgstr ""
+
+#: ../includes/theme-options.php:62
+msgid "Display page titles"
+msgstr ""
+
+#: ../includes/theme-options.php:62
+msgid ""
+"This setting toggles the display of the titles at the top of every page."
+msgstr ""
+
+#: ../includes/theme-options.php:63
+msgid "Display featured image"
+msgstr ""
+
+#: ../includes/theme-options.php:63
+msgid ""
+"This setting toggles the display of the featured image on top of every post."
+msgstr ""
+
+#: ../includes/theme-options.php:65
+msgid "Images"
+msgstr ""
+
+#: ../includes/theme-options.php:67
+msgid "Favicon"
+msgstr ""
+
+#: ../includes/theme-options.php:67
+msgid ""
+"This image is displayed in the browser window's title and in browser "
+"favourites."
+msgstr ""
+
+#: ../includes/theme-options.php:68
+msgid "Logo"
+msgstr ""
+
+#: ../includes/theme-options.php:68
+msgid "The logo is displayed in the site's header."
+msgstr ""
+
+#: ../includes/theme-options.php:69
+msgid "Logo Alignment"
+msgstr ""
+
+#: ../includes/theme-options.php:69
+msgid "The logo alignment whether 'left', 'right' or 'center'."
+msgstr ""
+
+#: ../includes/theme-options.php:70
+msgid "Login logo"
+msgstr ""
+
+#: ../includes/theme-options.php:70
+msgid "The logo displayed on the user login page."
+msgstr ""
+
+#: ../includes/theme-options.php:71
+msgid "Main Background Color"
+msgstr ""
+
+#: ../includes/theme-options.php:71
+msgid "The default, site-wide background color."
+msgstr ""
+
+#: ../includes/theme-options.php:72
+msgid "The default, site-wide background image."
+msgstr ""
+
+#: ../includes/theme-options.php:74
+msgid "Background Repeat"
+msgstr ""
+
+#: ../includes/theme-options.php:74
+msgid "Toggles the display setting of the background to repeat or no-repeat."
+msgstr ""
+
+#: ../includes/theme-options.php:75
+msgid "Background Size: 100%"
+msgstr ""
+
+#: ../includes/theme-options.php:75
+msgid ""
+"Toggles the display setting of the background size to \"100%\" or \"automatic"
+"\""
+msgstr ""
+
+#: ../includes/theme-options.php:78
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../includes/theme-options.php:80
+msgid "Enable Customize Preview"
+msgstr ""
+
+#: ../includes/theme-options.php:80
+msgid ""
+"See your site how it looks with the selection of different fonts and "
+"patterns."
+msgstr ""
+
+#: ../includes/theme-options.php:81
+msgid "Enable SEO Basic"
+msgstr ""
+
+#: ../includes/theme-options.php:81
+msgid "WARNING! Only enable this if you do not have any WP SEO installed."
+msgstr ""
+
+#: ../includes/theme-options.php:82
+msgid "Google analytics code"
+msgstr ""
+
+#: ../includes/theme-options.php:82
+msgid ""
+"Place your Google Analytics code snippet here and it will be included in "
+"every page."
+msgstr ""
+
+#: ../includes/theme-options.php:84
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/theme-options.php:84
+msgid "Place your custom css styles here"
+msgstr ""
+
+#: ../includes/theme-options.php:85
+msgid "Custom Javascript"
+msgstr ""
+
+#: ../includes/theme-options.php:85
+msgid "Place your custom javascripts here"
+msgstr ""
+
+#: ../includes/theme-options.php:88
+msgid "Slide Panel"
+msgstr ""
+
+#: ../includes/theme-options.php:88 ../includes/theme-options.php:112
+msgid "Manage panel options"
+msgstr ""
+
+#: ../includes/theme-options.php:93
+msgid "Enable"
+msgstr ""
+
+#: ../includes/theme-options.php:93
+msgid "Toggle to enable and disable feature"
+msgstr ""
+
+#: ../includes/theme-options.php:94
+msgid "Transparency"
+msgstr ""
+
+#: ../includes/theme-options.php:94
+msgid "Panel opacity in percent (%) "
+msgstr ""
+
+#: ../includes/theme-options.php:99 ../includes/theme-options.php:364
+msgid "Background"
+msgstr ""
+
+#: ../includes/theme-options.php:101
+msgid "Heading "
+msgstr ""
+
+#: ../includes/theme-options.php:102 ../includes/theme-options.php:107
+msgid "Alignment"
+msgstr ""
+
+#: ../includes/theme-options.php:102
+msgid "Header title alignment"
+msgstr ""
+
+#: ../includes/theme-options.php:106 ../includes/theme-options.php:292
+msgid "Content"
+msgstr ""
+
+#: ../includes/theme-options.php:107
+msgid "Content text alignment"
+msgstr ""
+
+#: ../includes/theme-options.php:112
+msgid "Footer Tabs"
+msgstr ""
+
+#: ../includes/theme-options.php:116
+msgid "Select Layout"
+msgstr ""
+
+#: ../includes/theme-options.php:117
+msgid "Tab Title"
+msgstr ""
+
+#: ../includes/theme-options.php:118
+msgid "Tab Title Hover"
+msgstr ""
+
+#: ../includes/theme-options.php:122
+msgid "Site Info"
+msgstr ""
+
+#: ../includes/theme-options.php:122
+msgid "Site Details and customize the footer's copyright message."
+msgstr ""
+
+#: ../includes/theme-options.php:128
+msgid "Copyright name"
+msgstr ""
+
+#: ../includes/theme-options.php:128
+msgid "The name which will be displayed in the footers's copyright."
+msgstr ""
+
+#: ../includes/theme-options.php:129
+msgid "Copyright link"
+msgstr ""
+
+#: ../includes/theme-options.php:129
+msgid "The full link to the copyright holder's website."
+msgstr ""
+
+#: ../includes/theme-options.php:130 ../includes/theme-options.php:230
+#: ../includes/theme-options.php:302
+msgid "Copyright"
+msgstr ""
+
+#: ../includes/theme-options.php:130
+msgid ""
+"This will appear at the footer if you enter your html formatted copyright "
+"here"
+msgstr ""
+
+#: ../includes/theme-options.php:135
+msgid "Typography"
+msgstr ""
+
+#: ../includes/theme-options.php:135
+msgid ""
+"Adjust the theme's typography. You can choose one of the predefined fonts, "
+"or enter a custom font name from the <a href=\"http://www.google.com/webfonts"
+"\" target=\"_blank\">Google Web Fonts</a> service."
+msgstr ""
+
+#: ../includes/theme-options.php:139
+msgid "Fonts"
+msgstr ""
+
+#: ../includes/theme-options.php:142
+msgid "Menu font"
+msgstr ""
+
+#: ../includes/theme-options.php:143
+msgid "Heading font"
+msgstr ""
+
+#: ../includes/theme-options.php:144
+msgid "Paragraph font"
+msgstr ""
+
+#: ../includes/theme-options.php:147
+msgid "Heading sizes"
+msgstr ""
+
+#: ../includes/theme-options.php:150 ../includes/theme-options.php:251
+msgid "Heading 1"
+msgstr ""
+
+#: ../includes/theme-options.php:156 ../includes/theme-options.php:252
+msgid "Heading 2"
+msgstr ""
+
+#: ../includes/theme-options.php:162 ../includes/theme-options.php:253
+msgid "Heading 3"
+msgstr ""
+
+#: ../includes/theme-options.php:168 ../includes/theme-options.php:254
+msgid "Heading 4"
+msgstr ""
+
+#: ../includes/theme-options.php:174 ../includes/theme-options.php:255
+msgid "Heading 5"
+msgstr ""
+
+#: ../includes/theme-options.php:180 ../includes/theme-options.php:256
+msgid "Heading 6"
+msgstr ""
+
+#: ../includes/theme-options.php:187
+msgid "Menu sizes"
+msgstr ""
+
+#: ../includes/theme-options.php:190
+msgid "Main menu"
+msgstr ""
+
+#: ../includes/theme-options.php:196
+msgid "Main menu description"
+msgstr ""
+
+#: ../includes/theme-options.php:202
+msgid "Main menu submenu"
+msgstr ""
+
+#: ../includes/theme-options.php:208
+msgid "Footer tab title"
+msgstr ""
+
+#: ../includes/theme-options.php:215
+msgid "Other sizes"
+msgstr ""
+
+#: ../includes/theme-options.php:218
+msgid "Paragraph"
+msgstr ""
+
+#: ../includes/theme-options.php:224
+msgid "Sidebar headers"
+msgstr ""
+
+#: ../includes/theme-options.php:236 ../includes/theme-options.php:284
+msgid "Footer"
+msgstr ""
+
+#: ../includes/theme-options.php:245
+msgid "Customize the theme's colors."
+msgstr ""
+
+#: ../includes/theme-options.php:249
+msgid "Headings"
+msgstr ""
+
+#: ../includes/theme-options.php:258
+msgid "Menu"
+msgstr ""
+
+#: ../includes/theme-options.php:260
+msgid "Menu background"
+msgstr ""
+
+#: ../includes/theme-options.php:261
+msgid "Menu text"
+msgstr ""
+
+#: ../includes/theme-options.php:262
+msgid "Menu hover "
+msgstr ""
+
+#: ../includes/theme-options.php:263
+msgid "Menu hover background"
+msgstr ""
+
+#: ../includes/theme-options.php:264
+msgid "Submenu text"
+msgstr ""
+
+#: ../includes/theme-options.php:265
+msgid "Submenu text hover"
+msgstr ""
+
+#: ../includes/theme-options.php:266
+msgid "Submenu background"
+msgstr ""
+
+#: ../includes/theme-options.php:267
+msgid "Submenu background hover"
+msgstr ""
+
+#: ../includes/theme-options.php:269
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../includes/theme-options.php:271
+msgid "Breadcrumb text"
+msgstr ""
+
+#: ../includes/theme-options.php:272
+msgid "Breadcrumb text hover"
+msgstr ""
+
+#: ../includes/theme-options.php:276
+msgid "Sidebar content background"
+msgstr ""
+
+#: ../includes/theme-options.php:277
+msgid "Sidebar content text"
+msgstr ""
+
+#: ../includes/theme-options.php:278
+msgid "Sidebar title background"
+msgstr ""
+
+#: ../includes/theme-options.php:279
+msgid "Sidebar title text"
+msgstr ""
+
+#: ../includes/theme-options.php:280
+msgid "Sidebar box background"
+msgstr ""
+
+#: ../includes/theme-options.php:281
+msgid "Sidebar box text"
+msgstr ""
+
+#: ../includes/theme-options.php:286
+msgid "Footer content text"
+msgstr ""
+
+#: ../includes/theme-options.php:287
+msgid "Footer  content menu text"
+msgstr ""
+
+#: ../includes/theme-options.php:288
+msgid "Footer content menu text hover"
+msgstr ""
+
+#: ../includes/theme-options.php:289
+msgid "Footer content background"
+msgstr ""
+
+#: ../includes/theme-options.php:290
+msgid "Back to Top Arrow"
+msgstr ""
+
+#: ../includes/theme-options.php:294
+msgid "Content background"
+msgstr ""
+
+#: ../includes/theme-options.php:295
+msgid "Paragraphs"
+msgstr ""
+
+#: ../includes/theme-options.php:297
+msgid "Links hover"
+msgstr ""
+
+#: ../includes/theme-options.php:298
+msgid "Button"
+msgstr ""
+
+#: ../includes/theme-options.php:299
+msgid "Button hover"
+msgstr ""
+
+#: ../includes/theme-options.php:300
+msgid "Button text"
+msgstr ""
+
+#: ../includes/theme-options.php:301
+msgid "Button text hover"
+msgstr ""
+
+#: ../includes/theme-options.php:303
+msgid "Search field"
+msgstr ""
+
+#: ../includes/theme-options.php:304
+msgid "Custom content block"
+msgstr ""
+
+#: ../includes/theme-options.php:308
+msgid "Hover overlay"
+msgstr ""
+
+#: ../includes/theme-options.php:308
+msgid "Hover overlay for both portfolio and gallery"
+msgstr ""
+
+#: ../includes/theme-options.php:309
+msgid "Item Title"
+msgstr ""
+
+#: ../includes/theme-options.php:309
+msgid "Title color for both portfolio and gallery"
+msgstr ""
+
+#: ../includes/theme-options.php:310
+msgid "Border"
+msgstr ""
+
+#: ../includes/theme-options.php:311
+msgid "Filter Background"
+msgstr ""
+
+#: ../includes/theme-options.php:313
+msgid "Overlay opacity"
+msgstr ""
+
+#: ../includes/theme-options.php:313
+msgid "Opacity in percentage (%)"
+msgstr ""
+
+#: ../includes/theme-options.php:320
+msgid "Use this page to define options for individual categories."
+msgstr ""
+
+#: ../includes/theme-options.php:363
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/theme-options.php:366
+msgid "Color scheme"
+msgstr ""
+
+#: ../includes/theme-options.php:369
+msgid "Category Slogan block"
+msgstr ""
+
+#: ../includes/theme-options.php:370
+msgid "Category Slogan background"
+msgstr ""
+
+#: ../includes/theme-options.php:370
+msgid "A background for the Category Slogan block above the content."
+msgstr ""
+
+#: ../includes/theme-options.php:373
+msgid "Enter the meta description for this "
+msgstr ""
+
+#: ../includes/theme-options.php:374
+msgid "Meta Keywords"
+msgstr ""
+
+#: ../includes/theme-options.php:374
+msgid "Enter the meta keywords separated by commas"
+msgstr ""

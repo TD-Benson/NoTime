@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#core-option-font_menu .core-option-name,
+#core-option-font_heading .core-option-name,
+#core-option-font_paragraph .core-option-name{
+	width: auto;
+	display: block !important;
+}
+
+.core-option-font-container {
+	display: inline-block;
+}
+
+	.core-option-font-container > select {
+		width: 175px;
+		margin-bottom: 5px;
+	}
+	.core-option-font-container input{
+		width: 175px !important;
+	}
+
+	.core-option-font-container > p {
+		font-size: 1.25em;
+		line-height: 26px;
+		margin-top: 0;
+		margin-left: 15px;
+		margin-bottom: 0;
+		display: inline-block;
+		opacity: 0;
+	}
+
+	.core-option-font-container > div.font-status {
+		opacity: 0;
+		margin-left: 15px;
+		vertical-align: middle;
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		background-image: url(../images/busy.gif);
+	}

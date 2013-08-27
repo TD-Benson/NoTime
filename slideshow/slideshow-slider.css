@@ -1,0 +1,64 @@
+.slider-slideshow,
+.slider-slideshow:after { 
+   /* position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; */
+    overflow: hidden;
+}
+.slider-slideshow:after { 
+    content: ''; 
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.slider-slideshow li span { 
+    width: 100%;
+    width: 100%\9;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+	filter: alpha(opacity=0); /* IE6+ */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); /* IE6+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /* this works in IE8 only */
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+}
+.slider-slideshow li div { 
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+	filter: alpha(opacity=0); /* IE6+ */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); /* IE6+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /* this works in IE8 only */
+    color: #fff;
+}
+
+/* Show at least something when animations not supported */
+.no-cssanimations .slider-slideshow li span{
+	opacity: 1;
+}
+@media screen and (max-width: 1140px) { 
+   .slider-slideshow li div { font-size: 90% !important; }
+}
+@media screen and (max-width: 960px) { 
+   .slider-slideshow li div { font-size: 80% !important; }
+}
+@media screen and (max-width: 480px) { 
+   .slider-slideshow li div { font-size: 60% !important; }
+}

@@ -1,0 +1,62 @@
+/* Black Skin */
+h1 { color: #000000; }
+h2 { color: #000000; }
+h3 { color: #595759; }
+h4 { color: #595759; }
+h5 { color: #595759; }
+h6 { color: #000000; }
+#theme-menu-main > li > a, #theme-footer-tabs  li > a, #theme-menu-main > li .desc { color: #ffffff; }
+#theme-menu-main  li:hover a, #theme-menu-main > li.current-menu-item:hover > a { color: #ffffff; }
+#theme-menu-main > li.current-menu-item > li > a, #theme-menu-main > li ul > li > a { color: #ffffff; }
+#theme-menu-main > li ul > li:hover > a { color: #6b6b6b; }
+#top-slidepanel .textwidget h3   { color: #000000; }
+#top-slidepanel .textwidget  text , #top-slidepanel .textwidget  p , #top-slidepanel .textwidget  span  { color: #000000; }
+.theme-breadcrumbs, .theme-breadcrumbs a { color: #424242; }
+.theme-breadcrumbs a:hover { color: #FF6600; }
+.theme-sidebar { color: #ffffff; }
+.theme-sidebar .widget-title { color: #ffffff; }
+.theme-sidebar .widget-content, .theme-sidebar a { color: #ffffff; }
+#theme-footer .tabcontent , #theme-footer .tabcontent h3, #theme-footer .tabcontent > a { color: #ffffff; }
+#theme-footer-menu > ul > li > a { color: #858585; }
+#theme-footer-menu > ul > li > a:hover { color: #ff6000; }
+#theme-footer-tabs > ul > li > a { color: #ffffff; }
+#theme-footer-tabs > ul > li > a:hover, #theme-footer-tabs > ul > li.active  a  { color: #949494; }
+.theme-content p, #theme-footer .tabcontent .theme-sidebar { color: #545454; }
+a, #theme-footer .tabcontent .theme-sidebar a { color: #636363; }
+a:hover, #theme-copyright a:hover, #theme-footer-a .theme-footer-column a:hover, ul.shortcode-toggle > li:hover > div.header > span.title, #theme-footer .tabcontent .theme-sidebar a:hover, #theme-footer .tabcontent a:hover { color: #FF6600; }
+.theme-button { color: #ffffff; }
+.theme-button:hover { color: #e6e6e6; }
+#theme-copyright a { color: #636363; }
+.theme-search-box input[type="text"] { color: #ababab; }
+#types, #types a, .da-thumbs li a div span { color: #ffffff; }
+#types a:hover { color: #ff6000; }
+#theme-menu-main  li:hover, .theme-search-box:hover .theme-search-icon { background-color: #141414; }
+#theme-navigation-row { background-color: #000000; }
+#theme-menu-main > li:hover ul > li { background-color: #000000; }
+#theme-menu-main > li:hover ul > li:hover, #theme-menu-main li.current-menu-item li.current-menu-item { background-color: #; }
+.portfolio-container li a div, ul.shortcode-gallery li.view .mask { background-color: #ff6000; }
+.theme-content #categories { background-color: #000000; }
+.theme-sidebar, .theme-excerpts .item, #post-display-option { background-color: #211e21; }
+.theme-sidebar h3, ul.theme-pagination > li.active, .theme-search-form input[type="submit"], #searchform input[type="submit"], #wp-calendar caption { background-color: #303030; }
+.theme-sidebar li.widget li { background-color: #454545; }
+#top-slidepanel #panel { background-color: #ffffff; }
+#top-widget, #theme-footer { background-color: #000000; }
+#theme-content-row { background-color: #; }
+.theme-button, input[type="submit"].theme-button, .widget_price_filter .ui-slider .ui-slider-handle, .theme-sidebar .ui-slider .ui-slider-handle { background-color: #2e2d2e; }
+.theme-button:hover, input[type="submit"].theme-button:hover, .widget_price_filter .ui-slider .ui-slider-handle, .theme-sidebar .ui-slider .ui-slider-handle { background-color: #858585; }
+#theme-custom-row { background-color: #f2f2f2; }
+#theme-menu-main  li:hover, .theme-search-box:hover .theme-search-icon { background-color: #141414; }
+ { border-color: #ffffff; }
+a > img:hover, img.avatar:hover, ul.products li:hover > a > img, ul.products li:hover img.wp-post-image, ul.product_list_widget li:hover img, .td_postWidget_posts .thumbs:hover, .shortcode-tdacs .overview li img:hover, .related-posts .post:hover, .td_adwidget_thumb img:hover, #commentform input:hover, #commentform textarea:hover { border-color: #FF6600; }
+ul.theme-pagination { border-color: #211e21; }
+.portfolio_block { border-color: #000000; }
+ul.shortcode-gallery > li:hover { outline-color: #FF6600; }
+#top-slidepanel #panel, .slidepanel-arrow { opacity : 0.95; }
+.portfolio-container li a div.item-title { opacity : 0.80; }
+.slidepanel-arrow { border-top : 40px solid #ffffff; }
+#portfolio-container li a div span { border-top : 10px solid #000000; }
+#theme-menu-main > li:hover { border-top : 2px solid #ffffff; }
+#theme-totop { border-bottom : 25px solid #121212; }
+#portfolio-container li a div span { border-bottom : 3px solid #000000; }
+ul.shortcode-gallery > li.view h2 { border-bottom : 4px solid #000000; }
+/* Black Skin */

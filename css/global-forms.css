@@ -1,0 +1,132 @@
+/*
+ *
+ * 	Global Form Styles
+ *
+ */
+form{ margin: 0; }
+fieldset {
+	background: inherit;
+	/*margin: 1.5em;
+	padding: 2em;*/
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+legend 	{ font-size: 1.25em; margin-bottom: 0 !important; margin-bottom: 1.429em; padding: 0 .5em;}
+label 	{ font-size: inherit; height: inherit; line-height: inherit;}
+
+	/* Input Types */
+	input[type='password'],
+	input[type='text'],
+	input[type='email'],
+	input[type='url'],
+	input[type='file'],
+	/*input,*/
+	select,
+	textarea {
+	
+		margin-bottom: 10px;
+	
+		/*background: #FFF;*/
+		/*background: -moz-linear-gradient(center top , #EDEDED 0%, #FFFFFF 100%) repeat scroll 0 0 transparent;*/
+		
+		color: #B5B5B5;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 5px;
+		margin-left: 2px;
+		width: 95%;
+		
+		/*border: 4px solid transparent;*/
+		border: medium none !important;
+		
+		border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+		
+		-moz-box-shadow: 0 0 5px rgba(150, 150, 150, 0.25);
+		-webkit-box-shadow: 0 0 5px rgba(150, 150, 150, 0.25);
+		box-shadow: 0 0 5px rgba(150, 150, 150, 0.25);
+		
+	}
+	input[type='password']:hover,
+	input[type='text']:hover,
+	input[type='email']:hover,
+	input[type='url']:hover,
+	input[type='file']:hover,
+	/*input:hover,*/
+	select:hover,
+	textarea:hover {
+		/* add your custom hover styles here */	
+		border-color: inherit;	
+	
+	}
+	textarea:hover {
+		/* add your custom hover styles here */		
+		border-color: inherit;
+	}
+	input[type='password']:focus,
+	input[type='text']:focus,
+	input[type='email']:focus,
+	input[type='url']:focus,
+	input[type='file']:focus,
+	/*input:focus,*/
+	select:focus,
+	textarea:focus {
+		
+		border-color: inherit;
+		/*color: inherit;*/
+		
+		-moz-box-shadow: 0 0 5px rgba(150, 150, 150, 0.85);
+		-webkit-box-shadow: 0 0 5px rgba(150, 150, 150, 0.85);
+		box-shadow: 0 0 5px rgba(150, 150, 150, 0.85);
+	}
+	
+	input[type='checkbox'], input[type='radio'], input[type='file'] {
+		display: inline-block;
+		margin-top: 4px;
+		width: auto;
+	}
+	
+	input[type='submit'] {
+		/*background: -moz-linear-gradient(center top , #FFFFFF 0%, #EDEDED 100%) repeat scroll 0 0 transparent;*/
+	    border: 1px solid #CCCCCC;
+	    
+	    border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	
+	    /*color: #777777;*/
+	    cursor: pointer;
+	    font: 12px/14px Arial,Tahoma,Verdana,sans-serif;
+	    outline: medium none;
+	    padding: 4px 10px;
+	    text-align: center;
+	    text-decoration: none;
+	    
+	    width: auto;
+	    
+	    -webkit-appearance: none !important; 
+	}
+	
+	input[type='submit']:hover {
+		
+	}
+	
+	input:required, textarea:required { outline: 1px solid #C74350;}
+	
+	/* Textarea */
+	textarea 	{ margin-bottom: 7px;}
+	
+	/* Select */
+	select { 
+		-webkit-appearance: none !important; 
+		-bracket-:hack(;
+	        padding-right: 15px !important;
+	    );
+		background-image: url('../images/arrow-select.png');
+		background-position:  98% 35%;
+		background-repeat: no-repeat;
+	}
+	
+	@-moz-document url-prefix() { select { background-image: none; } } 

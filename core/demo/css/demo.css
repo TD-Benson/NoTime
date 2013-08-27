@@ -1,0 +1,204 @@
+/*
+* Demo Styles
+*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.positioned {
+  position: fixed;
+  top: 40px;
+}
+.small {
+  font-size: 10px;
+}
+.fl {
+  float: left;
+  margin-right: 5px;
+}
+.alignright {
+  float: right;
+  margin-right: 5px;
+}
+.white 	{ background-color: #FFFFFF; }
+.orange { background-color: #FF6600; }
+.black  { background-color: #000000; }
+.red    { background-color: #ED1A4F; }
+.brown  { background-color: #C59C6D; }
+.green  { background-color: #39B64A; }
+.pink   { background-color: #ED2179; }
+.blue   { background-color: #009EE3; }
+.grey   { background-color: #ADA096; }
+
+#customize-demo {
+  width: auto;
+}
+#customize-demo #settings {
+  display: block;
+  padding: 0;
+  height: 48px;
+  width: 53px;
+  background: transparent url('../images/customize.png') 0 0 no-repeat;
+  color: #FDFDFD;
+  text-transform: uppercase;
+  position: fixed;
+  top: 100px;
+  right: -5px;
+  *right: -10px;
+  z-index: 99999;
+  cursor: pointer;
+
+}
+#customize-demo #settings.active {
+  right: 295px;
+}
+#demo-pane {
+  display: none;
+  background: #323232;
+  color: #FDFDFD;
+  width: 300px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 100px;
+  right: 0;
+  z-index: 99998;
+}
+#demo-pane .columns {
+  padding: 10px;
+}
+#demo-pane .heading {
+  padding-left: 35px;
+  background: transparent;
+  color: #FFF !important;
+}
+#settings,
+#demo-pane .heading,
+#demo-pane h3,
+#demo-pane .moreFeatures {
+  font-family: arial, serif !important;
+  background-color: #202020;
+  padding: 4px;
+}
+#demo-pane h3 {
+  color: #FFF !important;
+  font-size: 1em;
+}
+#demo-pane .skins a,
+#demo-pane .tiles img {
+  margin: 5px 0 5px 5px;
+  border: solid #FFFFFF 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+    -moz-box-shadow: 0px 0px 3px #000000;
+    -webkit-box-shadow: 0px 0px 3px #000000;
+    box-shadow: 0px 0px 3px #000000;
+    outline: none;
+}
+#demo-pane .layout {
+  border: 1px solid #2D2D2D;
+  cursor: pointer;
+  float: left;
+  margin-bottom: 6px;
+  margin-right: 5px;
+  min-width: 93.6%;
+  padding: 16px 5px 14px 10px;
+  text-align:left;
+
+    -moz-box-shadow: 0px 0px 3px #000000;
+    -webkit-box-shadow: 0px 0px 3px #000000;
+    box-shadow: 0px 0px 3px #000000;
+
+}
+#demo-pane .layout:last-child{
+  margin-right: 0px;
+}
+#demo-pane .layout.full,
+#demo-pane .layout.fluid{
+  background: url('../images/fullwidth.png') 5px 50% no-repeat;
+}
+#demo-pane .layout.box{
+  background: url('../images/boxed.png') 5px 50% no-repeat;
+}
+#demo-pane .tiles .tile {
+  margin: 0 5px 5px 0;
+  border: solid #AFAFAF 1px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+#demo-pane ul {
+  margin: 0 0 0 0.1em;
+}
+#demo-pane ul li {
+  list-style: none;
+}
+#demo-pane .moreFeatures {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  display: block;
+  min-height: 80px;
+  width: 100%;
+  position: relative;
+}
+#demo-pane .moreFeatures:hover {
+  text-decoration: none;
+}
+#demo-pane .option-group {
+  clear: both;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #171717;
+}
+#demo-pane .option-group:last-child{
+	margin: 0;
+}
+#demo-pane select {
+  font-size: 0.9em;
+  padding: 2px 5px;
+  color: #333;
+}

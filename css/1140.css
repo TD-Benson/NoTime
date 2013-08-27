@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* ==================================================================================================================== */
+/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
+/* ==================================================================================================================== */
+
+.container {
+}
+
+.row {
+width: 100%;
+/*max-width: 1140px; */
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+margin-right: 1.5%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 6.959%;
+}
+
+.row .twocol {
+width: 15.415%;
+}
+
+.row .threecol {
+width: 23.859%;
+}
+
+.row .fourcol {
+width: 32.295%;
+}
+
+.row .fivecol, .fivecol {
+width: 41%;
+}
+
+.row .sixcol {
+width: 49.251%;
+}
+
+.row .sevencol, .sevencol {
+width: 57.501%;
+}
+
+.row .eightcol {
+width: 66.207%;
+}
+
+.row .ninecol {
+width: 74.642%;
+}
+
+.row .tencol {
+width: 83.059%;
+}
+
+.row .elevencol {
+width: 91.543%;
+}
+
+.row .twelvecol,
+#top-widget-container .twelvecol {
+width: 100%;
+float: left;
+}
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed {
+	max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+.clear{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+}
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+/* Smaller screens */
+@media only screen and (max-width: 1023px) {
+	body {
+		/*font-size: 0.8em;*/
+	}
+	#top-widget-container {
+		min-width: 755px !important;
+	}
+}
+
+/* Mobile */
+@media handheld, only screen and (max-width: 767px) {
+	body {
+		font-size: 16px;
+		-webkit-text-size-adjust: none;
+	}
+	#top-widget-container {
+		min-width: 320px !important;
+	}
+	.row, body, .container, #top-widget-container {
+		width: 100%;
+		min-width: 0;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+

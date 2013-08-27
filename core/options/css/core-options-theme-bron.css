@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+body, body.wp-admin {
+	padding-top: 0 !important;
+}
+div#wpwrap{
+	background: #FFF;
+}
+#wpfooter{ display: none; }
+#core-theme-options {
+	
+}
+
+#core-theme-options > #sidebar {
+		
+		width: 190px;
+		height: 100%;
+		list-style: none;
+		float: left;
+		position: fixed;
+		top: 0px;
+		left: 146px;
+	background: #000;	
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-right-radius: 5px;
+	}
+
+		#core-theme-options > #sidebar > #navigation {
+			margin-top: 10px;
+			padding-top: 185px;
+			background: url("../images/notime.png") no-repeat scroll 0 105px transparent;	
+		}
+
+		#core-theme-options > #sidebar > #navigation > li {
+			color: #fff;
+			text-decoration: none;
+			text-shadow: inset 0 -1px 1px #000;
+			background: url(../images/nav-border.png) bottom no-repeat;	
+			padding: 8px 10px;
+			cursor: pointer;
+			margin-bottom: 0px;
+			font-weight: normal;
+			position: relative;
+		}
+
+		#core-theme-options > #sidebar > #navigation > li:hover {
+	background-image: url(../images/nav-border.png) bottom no-repeat;	
+	width: 93%;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+			
+	outline: none;
+	overflow: visible; /* removes extra side padding in IE */
+	cursor: pointer;
+
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0, 0.35);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0, 0.35);
+	box-shadow: 0 1px 2px rgba(0,0,0, 0.35);
+
+	
+	background: #3f3f3f url('../../../images/patterns/20.png'); /* Old browsers */
+	background: url('../../../images/patterns/20.png'), -moz-linear-gradient(top,  #3f3f3f 0%, #333333 50%, #3f3f3f 100%); /* FF3.6+ */
+	background: url('../../../images/patterns/20.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f3f3f), color-stop(50%,#333333), color-stop(100%,#3f3f3f)); /* Chrome,Safari4+ */
+	background: url('../../../images/patterns/20.png'), -webkit-linear-gradient(top,  #3f3f3f 0%,#333333 50%,#3f3f3f 100%); /* Chrome10+,Safari5.1+ */
+	background: url('../../../images/patterns/20.png'), -o-linear-gradient(top,  #3f3f3f 0%,#333333 50%,#3f3f3f 100%); /* Opera 11.10+ */
+	background: url('../../../images/patterns/20.png'), -ms-linear-gradient(top,  #3f3f3f 0%,#333333 50%,#3f3f3f 100%); /* IE10+ */
+	background: url('../../../images/patterns/20.png'), linear-gradient(to bottom,  #3f3f3f 0%,#333333 50%,#3f3f3f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f3f', endColorstr='#3f3f3f',GradientType=0 ); /* IE6-9 */
+
+
+			
+			color: #D9D9D9;
+			text-decoration: none;
+			text-shadow: 1px 1px 0 #000;	
+		}
+
+		#core-theme-options > #sidebar > #navigation > li > img {
+			float: left;
+			margin-right: 10px;	
+			opacity: 0.5;
+		}
+		
+		#core-theme-options > #sidebar > #navigation > li:hover > img {
+			opacity: 1;
+		}
+		#core-theme-options > #sidebar > #navigation > li[id*='woocommerce'] img { margin-bottom: 16px; }
+
+@media handheld, only screen and (max-width: 900px) {
+	#core-theme-options > #sidebar {
+		left: 33px;
+	}
+}
+
+	#core-theme-options > #content {
+		float: left;
+		position: relative;
+		left: 200px;
+		width: 70%;
+	}
+
+.core-option-group {
+
+}
+
+.core-option-group-head{
+	padding: 20px;
+	
+	color: #000;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.core-option-group-head h1 {
+	margin-top: 0;
+	color:#000;
+	font-weight:normal;
+}
+
+.core-option-group-head p {
+	padding: 0 0 0.5em;
+	margin-bottom: 0;
+}
+.core-option-group-head a {
+	color: #D7D7D7;
+}
+
+.core-option-section {
+	margin-top: 20px;
+	border-top: 2px solid #eee;
+}
+
+.core-option-section > h2 {
+	display: none;
+}
+
+.core-option {
+	padding: 25px 0 20px 0;
+	border-bottom: 1px solid #eee;
+}
+
+	.core-option textarea {
+		width: 380px;
+		height: 90px;
+		padding: 5px;
+		border-radius:5px;
+	}
+
+	.core-option input {
+		margin: 0;
+		vertical-align: top;
+	}
+
+	.core-option input[type=text] {
+		width: 250px;
+		padding: 5px;
+		border-radius:5px;
+	}
+
+	.core-option input[type=checkbox] {
+		height: 30px;
+	}
+
+	.core-option input[type=button], .core-option-submit {
+		padding: 5px 8px 5px 8px;
+		width: 130px;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+
+	.core-option select {
+		height: auto;
+		line-height: auto;
+		cursor: pointer;
+		margin: 0;
+		vertical-align: top;
+		padding: 5px;
+		min-width:25%;
+	}
+
+.core-option-name {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	line-height: 30px;
+	margin: 0;
+}
+
+.core-option-description {
+	font-style: italic;
+	font-size: 1em;
+	color: #777;
+	margin-top: 5px;
+	margin-left: 200px;
+}
+
+.core-option-color {
+	display: inline-block;
+	width: 45px;
+	height: 27px;
+	border: 1px solid #dfdfdf;
+	background-color: transparent;
+	margin-left: 5px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.core-option-color-input {
+	width: 65px !important;
+}
+
+.core-option-pattern-container {
+	display: inline-block;
+}
+
+.core-option-number-input {
+	width: 45px !important;
+}
+
+.core-option-number-up, .core-option-number-down {
+	width: 16px;
+	height: 25px;
+	margin-left: 5px;
+	display: inline-block;
+	cursor: pointer;
+	background-image: url(../images/buttons-number-arrows.png);
+	background-repeat: no-repeat;
+}
+
+.core-option-number-up {
+	border-right: none;
+	background-position: 0px 0px;
+}
+
+.core-option-number-down {
+	border-left: none;
+	background-position: -16px 0px;
+}
+
+#core-options-busy {
+	background-image: url(../../images/busy.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 29px;
+	height: 29px;
+	margin: 0 0 5px 10px;
+	opacity: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#core-options-result {
+	font-weight: 700;
+	margin: 0;
+	display: inline-block;
+}
+
+.core-option-image-select-container {
+	display: inline-block;
+	max-width: 380px;
+}
+
+	.core-option-image-select-container input {
+		width: 380px !important;
+	}
+
+	.core-option-image-select-container > .preview-thumb {
+		background-color: #f0f0f0;
+		border: 1px solid #ddd;
+		margin-bottom: 5px;
+		padding: 10px;
+		background-image: url(../images/select.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.core-option-image-select-container > .preview-thumb > .remove {
+		display: inline-block;
+		cursor: pointer;
+		background-image: url(../images/delete.png);
+		width: 16px;
+		height: 16px;
+		position: absolute;
+		top: -7px;
+		right: -7px;
+	}
+
+	.core-option-image-select-container > .preview-thumb > img {
+		max-width: 380px;
+		max-height: 228px;
+		background-color: #f0f0f0;
+		display: block;
+		
+	}
+
+.core-option-theme-buttons {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: -19px;
+	width: 100%;
+	padding: 32px 16px 24px 16px;
+	background-image: url(../images/buttons-fade.png);
+	background-repeat: repeat-x;
+	vertical-align: middle;
+}
+
+#footer {
+	display: none;
+}
+
+.core-options-tabs {
+	width: 100%;
+	/*border-bottom: 2px solid #eee;*/
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+	.core-options-tabs > li {
+		border-radius: 5px 5px 0 0;
+		display: inline-block;
+		padding: 6px 17px;
+		margin-bottom: 0;
+		font-size: 13px;
+		border-bottom: none;
+		margin-right: 2px;
+		color: #fff;
+		background-color: #ccc;
+		cursor: pointer;
+		background: url(../images/pattern.png) repeat scroll 0 0;
+		background-color:  #939393;
+		background-image: none;
+		font-weight:  normal;
+		
+		letter-spacing: 1px;	
+		/*text-shadow: 1px 1px 0 rgba(150, 150,150, 0.5);*/
+		
+		
+	}
+
+	.core-options-tabs > li:hover,
+	.core-options-tabs > li.active {
+		background-color: #939393;
+		color: #D0D0D0;
+	}
+
+	.core-options-tabs > li:last-child {
+		margin-right: 0;
+	}
+	
+	.core-options-tabs > li,
+	.core-options-tabs > li{
+		
+		margin-bottom: 10px;
+		margin-left: 0;
+		font-size: 12px; 
+		text-transform: capitalize;
+
+	outline: none;
+	overflow: visible; /* removes extra side padding in IE */
+	cursor: pointer;
+	
+	background: #000;
+	
+	}
+	
+	.core-options-tabs > li.active,
+	.core-options-tabs > li.active {
+		color: #fff;
+		
+	}
+	
+	.core-options-tabs > li:hover,
+	.core-options-tabs > li:hover{
+		text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+		background: #272727;
+		color: #8A8B8B;
+	}
+	
+	/* SUbmit Button */
+	#core-options-submit{
+		
+			outline: none;
+	overflow: visible; /* removes extra side padding in IE */
+	cursor: pointer;
+	background-color: #939393;
+	color: #FFF;
+	border: none;
+	}
+	
+	/* Tables */
+	#core-option-colorschemes .core-option-colorschemes .scheme td {
+		vertical-align: top;
+		text-align: center;
+	}
+	#core-option-colorschemes .core-option-colorschemes .scheme input.scheme-name {
+		max-width: 170px !important;
+	}
+	#core-option-colorschemes .core-option-colorschemes .scheme input.scheme-color-background,
+	#core-option-colorschemes .core-option-colorschemes .scheme input.scheme-color-paragraph,
+	#core-option-colorschemes .core-option-colorschemes .scheme input.scheme-color-headings{
+		width: 60px !important;
+	}
+	
+	#core-option-colorschemes .core-option-colorschemes .scheme .core-option-color,
+	.core-option-group .core-option-color {
+		height: 23px;
+		width: 25px;
+	}
+	#core-option-colorschemes .core-option-colorschemes .scheme input.scheme-opacity-background{
+		width: 35px !important;
+	}
+	
+	/*Override admin error messages */
+	div.updated, div.error, .login #login_error {
+	    background-color: #fff;
+	    border-color: #ddd;
+		margin-left:-18px;
+		padding:10px;
+		border-radius:0px;
+		background: url(../images/pattern.png);
+	}
+	
+	div.updated, div.error {
+    	margin: 5px 15px 15px 200px;
+    	padding: 0 0.6em;
+    	width: 68%;
+    }
+    
+    

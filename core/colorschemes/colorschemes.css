@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.core-option-colorschemes {
+}
+
+	.core-option-colorschemes th {
+		text-align: left;
+	}
+
+	.core-option-colorschemes td, .core-option-colorschemes th {
+		padding: 0 8px;
+	}
+
+	.core-option-colorschemes .colorpicker {
+
+	}
+
+	.core-option-colorschemes input.scheme-name {
+		width: 200px !important;
+	}
+
+	.core-option-colorschemes input {
+		width: 75px !important;
+	}
+
+	.core-option-colorschemes .template {
+		display: none;
+	}

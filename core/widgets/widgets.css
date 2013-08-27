@@ -1,0 +1,232 @@
+/*
+*
+* Styles for Theme Dutch Extras Widgets
+*
+*/
+
+/* Ad Widget */
+.td_adwidget_wrap 			{ margin: 0 auto; width: auto; text-align: center; } 
+.td_adwidget_thumb 			{ display:-moz-inline-stack; float: left; zoom:1; *display:inline; width: auto; margin: 0 0.5em 0.5em 0; } /* add margin to properly align thumbs*/
+.td_adwidget_thumb a		{ width: auto; } 
+.td_adwidget_thumb img 		{ 
+
+	-webkit-transition-property: border-color;
+  	-webkit-transition-duration: 0.5s;
+  	-moz-transition-property: border-color;
+  	-moz-transition-duration: 0.5s;
+  	-ms-transition-property: border-color;
+  	-ms-transition-duration: 0.5s;
+  	-o-transition-property: border-color;
+  	-o-transition-duration: 0.5s;
+  	transition-property: border-color;
+  	transition-duration: 0.5s;
+
+    background: #fff;
+  	margin: 9% 0 3% 3%; padding: 0; border: solid #fff 4px; width: 125px;
+
+  	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+} 
+
+.td_adwidget_thumb img:hover {}
+
+
+/* Posts Widget */
+ul.td_postWidget_posts			{ border: none; }
+ul.td_postWidget_posts li 		{ list-style: none; margin: 0; border-bottom:1px dashed #CCC; margin-bottom:10px; }
+ul.td_postWidget_posts li:last-child     { border-bottom: none; }
+.td_postWidget_posts a.post-title { text-decoration: none; color: inherit; }
+.td_postWidget_posts li:after 	{ content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.td_postWidget_posts div.item {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.td_postWidget_posts .thumbs			{ 
+
+	-webkit-transition-property: border-color;
+  	-webkit-transition-duration: 0.5s;
+  	-moz-transition-property: border-color;
+  	-moz-transition-duration: 0.5s;
+  	-ms-transition-property: border-color;
+  	-ms-transition-duration: 0.5s;
+  	-o-transition-property: border-color;
+  	-o-transition-duration: 0.5s;
+  	transition-property: border-color;
+  	transition-duration: 0.5s;
+
+	margin: 0 10px 0 0 !important; width: 40px; height: 40px; padding: 0 !important; border: solid transparent 4px;
+ border-color: inherit;
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+.td_postWidget_posts .thumbnail.thumbs,
+.td_postWidget_posts .medium.thumbs,
+.td_postWidget_posts .large.thumbs{
+	width: auto !important;
+	height: auto !important;
+	max-width: 90% !important;
+	border-radius:15px;
+}
+
+.td_postWidget_posts .thumbs:hover		{}
+.td_postWidget_meta				{ display: block; font-size: 80%; margin-top: 10px; }
+div.td_postWidget_meta	{ margin-bottom: 0.35em; }
+div.td_postWidget_meta:last-child	{ margin-bottom: 1.35em; }
+.theme-sidebar .td_postWidget_meta	{ display: block; font-size: 65%; }
+.td_postWidget_posts .cat		{ text-decoration: none; padding: 1px 5px; background-color: #CCC; background-color: rgba(0,0,0,0.15); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.td_postWidget_posts .num		{ background: #000; font-size: 85%; padding: 0 5px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+
+
+/********************************************************************************
+    TD category thumbnails
+*********************************************************************************/
+.td-cat-item img {
+  display:-moz-inline-stack;
+  display:inline-block;
+  zoom:1;
+  *display:inline;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 32px;
+}
+
+
+/********************************************************************************
+	Social Box style support
+********************************************************************************/
+div#socialbox, div#socialbox ul, div#socialbox ul li, div#socialbox ul li p, div#socialbox ul li p img, div#socialbox ul li p span, #socialbox ul li p a{
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#socialbox{
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+div#socialbox:after{	
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0px;
+}
+
+	div#socialbox ul{
+		list-style: none;
+		margin: 1px auto 0;
+		padding: 0px;
+		width: auto;
+		float: left;
+	}
+		.tsidebarnarrow div#socialbox ul{
+			margin: 40px auto 0;
+			max-width: 85px;
+			
+			float: none;
+		}
+		@media only screen and (max-width: 767px) {
+			.tsidebarnarrow div#socialbox ul{
+				max-width: 100%;
+				width: auto;
+			}	
+		}
+		
+		div#socialbox ul li{
+			margin: 0 0 1em 0;
+			background: none;
+			min-height: 48px;
+			list-style: none;
+			min-width: 80px;
+			min-height: 80px;
+			display:-moz-inline-stack;
+			display:inline-block;
+			zoom:1;
+			*display:inline;
+			float: left;
+			white-space: nowrap;
+		}
+	
+		div#socialbox ul li:last-child{
+			border-bottom: none;
+		}
+		
+			div#socialbox ul li p{
+				padding: 0;
+				text-align: center;
+				line-height: 1.2em;
+			}
+				div#socialbox ul li p a{
+					
+
+					margin: 0 auto 0.5em;
+					width: 48px;
+					min-height: 48px;
+					display: block;
+					background: transparent url('images/socialbox-sprite.png') 70px 70px no-repeat;
+
+					border: none;
+					-webkit-border-radius: 48px;
+					-moz-border-radius: 48px;
+					border-radius: 48px;
+				}
+
+				div#socialbox ul li p a:hover{
+					-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85);
+					-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85);
+					box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85);
+
+					transition: box-shadow 0.5s;
+					-moz-transition: box-shadow 0.5s; /* Firefox 4 */
+					-webkit-transition: box-shadow 0.5s; /* Safari and Chrome */
+					-o-transition: box-shadow 0.5s; /* Opera */
+				}	
+
+				div#socialbox ul li p a[href*="facebook"]{
+					background-position: -266px -23px;	
+				}
+				div#socialbox ul li p a[href*="feed"],
+				div#socialbox ul li p a[href*="rss"]{
+					background-position: -25px -23px;	
+				}
+				div#socialbox ul li p a[href*="twitter"]{
+					background-position: -85px -23px;	
+				}
+				div#socialbox ul li p a[href*="youtube"]{
+					background-position: -387px -23px;	
+				}
+				div#socialbox ul li p a[href*="plus"]{
+					background-position: -327px -88px;	
+				}
+				div#socialbox ul li p a[href*="vimeo"]{
+					background-position: -206px -23px;	
+				}
+				div#socialbox ul li p a[href*="digg"]{
+					background-position: -266px -88px;	
+				}
+				div#socialbox ul li p a[href*="facebook"]{
+					background-position: -266px -23px;	
+				}
+				div#socialbox ul li p a[href*="dribbble"]{
+					background-position: -146px -23px;	
+				}
+				div#socialbox ul li p a[href*="forrst"]{
+					background-position: -327px -23px;	
+				}
+					div#socialbox ul li p span{
+						color: #425763;
+						display: block;
+					}
+				
+				/* hide some elements */
+				div#socialbox ul li p img,
+				div#socialbox ul li p a.socialbox-button{
+					display: none;
+				}
+				

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#theme-navigation-main ul > li {
+	zoom: 1;
+	*display: inline;
+}
+
+#theme-navigation-top ul > li {
+	zoom: 1; *display: inline;
+}
+
+.theme-content-container {
+	height: 1%;
+}
